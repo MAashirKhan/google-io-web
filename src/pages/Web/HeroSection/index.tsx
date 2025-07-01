@@ -37,7 +37,7 @@ const HeroSection: React.FC = () => {
           </div>
           <div className="flex space-x-4 mt-3">
             <NavLink
-              to={"https://forms.gle/QXFMk4nqhxgLs6xn7"}
+              to={"https://forms.gle/HTqiyVtMt5yKKYnw7"}
               target="_blank"
               className="rounded-3xl font-medium text-white text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2"
                style={{ background: 'linear-gradient(180deg,#fbbc04,#ff902a,#ea4335)' }}

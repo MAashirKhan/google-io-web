@@ -78,7 +78,7 @@ const HeaderSection: React.FC = () => {
           {/* Register Button & Mobile Menu Button */}
           <div className="flex items-center space-x-4">
             <NavLink
-              to={"https://forms.gle/QXFMk4nqhxgLs6xn7"}
+              to={"https://forms.gle/HTqiyVtMt5yKKYnw7"}
               className="px-2 md:px-6 py-2.5 rounded-full cursor-pointer text-white font-medium text-sm hover:scale-105 transition-transform duration-200 shadow-lg backdrop-blur-sm bg-white/20 border border-white/30"
               style={{ background: 'linear-gradient(180deg,#fbbc04,#ff902a,#ea4335)' }}
             >
