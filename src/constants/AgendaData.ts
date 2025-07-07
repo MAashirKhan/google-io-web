@@ -40,7 +40,7 @@ export const agendaData: AgendaItem[] = [
     duration: 25,
     sessionType: 'General',
     title: 'Future of AI: Perspectives for Startups',
-    speaker: 'Tamie',
+    speaker: 'Fannie Soubiele',
     category: 'Tech'
   },
   {
@@ -50,7 +50,7 @@ export const agendaData: AgendaItem[] = [
     duration: 25,
     sessionType: 'General',
     title: 'Google Startup Program - in Pakistan',
-    speaker: 'Esha Ong',
+    speaker: 'Esna Ong',
     category: 'Tech'
   },
   {
@@ -70,7 +70,7 @@ export const agendaData: AgendaItem[] = [
     duration: 25,
     sessionType: 'General',
     title: 'Building agentic workflows with Google\'s Agent Development Kit (ADK)',
-    speaker: 'Tahreem',
+    speaker: 'Tahreem Rasul',
     category: 'Non Tech'
   },
   {
@@ -122,7 +122,7 @@ export const agendaData: AgendaItem[] = [
     duration: 25,
     sessionType: 'AI',
     title: 'Building Apps in Minutes with Google Stitch + Firebase Suite',
-    speaker: 'Hassam',
+    speaker: 'Hassam Jawed',
     category: 'Tech'
   },
   {
@@ -152,7 +152,7 @@ export const agendaData: AgendaItem[] = [
     duration: 40,
     sessionType: 'Panel',
     title: 'Beyond features: Thinking like a Product Engineer',
-    speaker: 'Moderator: Nabeel Ahmed, Panelists: Talha Ashraf, Saad Farhan',
+    speaker: 'Moderator: Nabeel Ahmed, Panelists: Talha Ashraf, Saad Pasta, Naveed, Huma Imam',
     category: 'Tech'
   },
   {
@@ -162,7 +162,7 @@ export const agendaData: AgendaItem[] = [
     duration: 25,
     sessionType: 'Cloud',
     title: 'Build AI Agents with Google Cloud',
-    speaker: 'Harris Gul',
+    speaker: 'Harris Solangi',
     category: 'Tech'
   },
   {
@@ -258,7 +258,7 @@ export const agendaData: AgendaItem[] = [
     duration: 120,
     sessionType: 'Workshop',
     title: 'Rapid App Development using Firebase Studio',
-    speaker: 'Munim and Aashir',
+    speaker: 'Hafiz Abdul Munim and Muhammad Aashir Khan',
     category: 'Workshop',
     room: 'Ashritech Room 2'
   }
