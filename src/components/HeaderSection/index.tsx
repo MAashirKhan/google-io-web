@@ -48,6 +48,19 @@ const HeaderSection: React.FC = () => {
               Team
             </NavLink>
             <NavLink
+              to="/agenda"
+              className={({ isActive }) =>
+                `font-medium hover:text-black/80 transition-all duration-200 px-4 py-2 rounded-lg ${
+                  isActive ? "text-white shadow-lg" : "text-black/90"
+                }`
+              }
+              style={({ isActive }) => 
+                isActive ? { background: 'linear-gradient(rgb(251, 188, 4), rgb(255, 144, 42), rgb(234, 67, 53))' } : {}
+              }
+            >
+              Agenda
+            </NavLink>
+            <NavLink
               to="/badge"
               className={({ isActive }) =>
                 `font-medium hover:text-black/80 transition-all duration-200 px-4 py-2 rounded-lg ${
@@ -78,7 +91,7 @@ const HeaderSection: React.FC = () => {
           {/* Register Button & Mobile Menu Button */}
           <div className="flex items-center space-x-4">
             <NavLink
-              to={"https://forms.gle/HTqiyVtMt5yKKYnw7"}
+              to={"https://forms.gle/QXFMk4nqhxgLs6xn7"}
               className="px-2 md:px-6 py-2.5 rounded-full cursor-pointer text-white font-medium text-sm hover:scale-105 transition-transform duration-200 shadow-lg backdrop-blur-sm bg-white/20 border border-white/30"
               style={{ background: 'linear-gradient(180deg,#fbbc04,#ff902a,#ea4335)' }}
             >
@@ -146,6 +159,22 @@ const HeaderSection: React.FC = () => {
                   onClick={toggleMenu}
                 >
                   Team
+                </NavLink>
+              </li>
+              <li>
+                <NavLink
+                  to="/agenda"
+                  className={({ isActive }) =>
+                    `block px-4 py-2 rounded-lg text-white font-medium transition-all duration-200 ${
+                      isActive ? "shadow-lg" : "hover:bg-white/10"
+                    }`
+                  }
+                  style={({ isActive }) => 
+                    isActive ? { background: 'linear-gradient(rgb(251, 188, 4), rgb(255, 144, 42), rgb(234, 67, 53))' } : {}
+                  }
+                  onClick={toggleMenu}
+                >
+                  Agenda
                 </NavLink>
               </li>
               <li>
